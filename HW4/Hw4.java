@@ -9,7 +9,7 @@ public class Hw4 {
         QuickSort.createRandom(myArray);
         System.out.println(Arrays.toString(myArray));
 
-        QuickSort.arrSort(myArray, 0, 9);
+        QuickSort.arrSort(myArray, 0, myArray.length-1);
         System.out.println(Arrays.toString(myArray));
 
     }
